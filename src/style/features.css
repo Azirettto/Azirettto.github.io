@@ -137,9 +137,7 @@ a{
         padding-left: 50px;
 
     }
-    .block1{
-        color: #FDC500;
-    }
+    
 }
 .subscribe{
     padding-top: 128px;
@@ -203,5 +201,10 @@ a{
 @media (max-width: 1200px){
     .custom-search{
         width: 878px;
+    }
+    body{
+        
+        overflow-x: hidden;
+        
     }
 }
