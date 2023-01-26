@@ -2,8 +2,8 @@
 @media (max-width: 1200px){
     .custom-search{
         width: 100%;
-        padding: 15px;
-        padding-left: -100;
+        padding: 20px 21px 58px 51px;
+        
     }
     
     .about__content_left h1{
@@ -103,6 +103,11 @@
     .header{
         padding: 0px 0px;
     }
-   
+    .custom-search-input{
+        height: 48px;
+    }
+    .custom-search-botton{
+        height: 48px;
+    }
 
 }
