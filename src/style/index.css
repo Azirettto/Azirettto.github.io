@@ -103,6 +103,7 @@
     align-items: center;
     column-gap: 45px;
     margin-top: 68px;
+    
 }
 
 .about__content_left ul li {
@@ -128,16 +129,3 @@
     border-radius: 330px;
 }
 
-@media (max-width: 1200px) {
-    .about__content{
-        flex-flow: row wrap;
-        padding: 50px 50px 50px 50px;
-        
-    }
-    .about__content_image{
-        width: 500px;
-        height: 500px;
-        
-    }
-    
-}

@@ -37,6 +37,10 @@ a{
     align-items: center;
     column-gap: 30px;
 }
+.text2-svg{
+    column-gap: 16px;
+    display: flex;
+}
 .feature__content__nft{
     padding-top: 40px;
 }
@@ -127,18 +131,7 @@ a{
     display: flex;
     column-gap: 30px;
 }
-@media (max-width: 1200px) {
-    .nft{
-        flex-direction: column;
-        align-items: center;
-    }
-    .feature__content__text{
-        column-gap: 200px;
-        padding-left: 50px;
 
-    }
-    
-}
 .subscribe{
     padding-top: 128px;
     color: white;
@@ -198,13 +191,3 @@ a{
     font-size: 18px;
     line-height: 28px;
   }
-@media (max-width: 1200px){
-    .custom-search{
-        width: 878px;
-    }
-    body{
-        
-        overflow-x: hidden;
-        
-    }
-}
