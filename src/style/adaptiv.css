@@ -52,7 +52,7 @@
     }
     
 }
-@media (max-width: 414px) {
+@media (max-width: 300px) {
     #about-text{
         font-size: 10px;
     }
