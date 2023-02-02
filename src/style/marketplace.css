@@ -1,0 +1,65 @@
+.marketplace{
+    background-color: #230936f2;
+    color: white;
+
+}
+.marketplace__content{
+    display: flex;
+    align-items: center;
+    column-gap: 115px;
+    padding: 100px 0;
+}
+.marketplace__content_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.marketplace__content_left h2{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.marketplace__content_left span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 33px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.marketplace__content_left button{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    font-family: 'Poppins';
+    padding-top: 68px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+.marketplace__content_image{
+    background: #94EEE5;
+    border-radius: 250px;
+}
+.marketplace__image{
+    margin-left: 414px;
+    margin-top: -266px;
+    padding-bottom: 89px;
+
+}
+.marketplace__image_block1{
+    background: #E87993;
+    border-radius: 250px;
+}
+.marketplace__image_block2{
+    margin-top: 160px;
+    position: absolute;
+}
