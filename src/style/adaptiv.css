@@ -1,66 +1,229 @@
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {                                   /* максимальная ширина 1200 пикселей */
+   
+    .container{
+        max-width: 970px;
+    }
     .custom-search{
         width: 100%;
         padding: 20px 21px 58px 51px;
-        
     }
     
     .about__content_left h1{
-        font-size: 40px;
+        font-size: 30px;
         
     }
     #about-text{
-        font-size: 14px;
+        font-size: 12px;
     }
     .about__content_left ul li {
-        font-size: 14px;
+        font-size: 10px;
         line-height: 1.5;
     }
 
-    .nft{
-        flex-direction: column;
-        align-items: center;
+    .nft, .activity__content{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 40px 40px 40px 40px;
     }
     .feature__content__text{
-        column-gap: 49px;
-        padding-left: 50px;
-
+        column-gap: 352px;
+        padding: 0 52px;
     }  
+    .activity__text{
+        column-gap: 352px;
+
+    }
     .text2-svg{
         display: none;
        }
-   
-    
-
-
     .about__content{
-        flex-flow: row wrap;
-        padding: 50px 50px 50px 50px;
-        align-items: center;
-
         
+        padding: 50px 50px 50px 50px;
+        align-items: center;    
     }
     .about__content_image{
-        width: 300px;
-        height: 300px;
-        
+        width: 225px;
+        height: 245px;
     }
+        
+    
     .about__content_image img{
         width: 250px;
         height: 250px;
     }
+    .activity__content_image-1{
+        display: inline-block;
+        padding: 50px;
+    }
+    .marketplace__content_left h2{
+        font-size: 25px;
+        line-height: 1;
+    }
+    .marketplace__content_left span{
+        
+        font-size: 10px;
+    }
+    .marketplace__content_left{
+        padding: 0;
+        display: flex;
+        grid-gap: 1.9px;
+    }
+    .marketplace__image {
+        margin-left: 227px;
+        margin-top: -266px;
+        padding-bottom: 89px;
+    }
+    .marketplace__content_right{
+        padding-left: 42px;   
+    }
+
+    .marketplace__content_image, .marketplace__content_image img {
+        width: 350px;
+        height: 350px;
+    }
+    .marketplace__image_block1{
+        width: 250px;
+        height: 250px;
+    }
+    .marketplace__image_block2{
+        height: 150px;
+    
+        width: 150px;
+    }
+}
+@media (max-width: 992px) {                                           /* Максимальная ширина 992 пикселей */
+    .container{
+        max-width: 750px;
+    }
+    
+    .feature__content__text{
+        column-gap: 100px;
+        
+    }
+    .marketplace__content_image, .marketplace__content_image img {
+        width: 300px;
+        height: 300px;
+    }
+    .marketplace__image_block1{
+        width: 200px;
+        height: 200px;
+    }
+    .marketplace__image_block2{
+        height: 100px;
+    
+        width: 100px;
+    }
+    .marketplace__image {
+        margin-left: 220px;
+        margin-top: -247px;
+        padding-bottom: 89px;
+    }
+     .footer__content, .footer-menu-info{
+        
+        column-gap: 133px;
+        margin: 0 auto;
+        
+    }
+    .footer__content_community{
+        margin: 0 auto;
+    }
+    
+    
     
 }
-@media (max-width: 300px) {
+@media (max-width: 810px) {                                               /* Максимальная ширин 767 пикселей */
+    .container{
+        max-width: 553px
+    }
+    .about__content_left h1{
+        font-size: 25px;
+        line-height: 1;
+    }
     #about-text{
         font-size: 10px;
     }
+    .footer__content{
+        flex-direction: column;
+        grid-gap: 50px
+        
+    }
+   
+    
+}
+@media (max-width: 670px) {                                                              /* Максимальная ширин 670 пикселей */     
+    .marketplace__content_image, .marketplace__content_image img {
+        width: 230px;
+        height: 230px;
+    }
+    .marketplace__image_block1 {
+        width: 140px;
+        height: 140px;
+    }
+    .marketplace__image_block2{
+        width: 80px;
+        height: 80px;
+        margin-top: 88px;
+    }
+    .marketplace__image {
+        margin-top: -310px;
+        padding-top: 135px;
+        padding-bottom: 89px;
+    }
+    .marketplace__content{
+        align-items: flex-start;
+        column-gap: 86px
+    }
+    .activity__text {
+        column-gap: 44px;
+    }
+}
+@media (max-width:570px) {
+    .marketplace__content_image, .marketplace__content_image img {
+        width: 160px;
+        height: 160px;
+    }    
+     .marketplace__image_block1 {
+        width: 130px;
+        height: 130px;
+    }
+    .marketplace__image_block2{
+        width: 80px;
+        height: 80px;
+        margin-top: 88px;
+    }
+    .marketplace__image {
+        margin-top: -225px;
+         margin-left: 245px;
+        padding: 0;
+        padding-bottom: 89px;
+    }
+    .marketplace__content{
+        align-items: flex-start;
+        column-gap: 86px
+    }
+    .marketplace__content_left span {
+        
+        line-height: 1.5;
+        padding-top: 20px;
+        
+    }
+}
+@media (max-width: 450px) {                                                    /* Максимальная ширин 450 пикселей */     
+    #about-text{
+        font-size: 10px;
+    }
+    .marketplace__content_left br{
+        display: none;
+    }
     .about__content_left h1{
         font-size: 20px;
-        position: absolute;
+        line-height: 0.1;
         
         
+    }
+    br{
+        display: none;
     }
     .about__content_left{
         row-gap: -20px;
@@ -83,6 +246,7 @@
     }
     .subscribe span{
         font-size: 15px;
+        padding: 30px 30px 30px 30px;
     }
     .feature__content__text span{
         font-size: 15px;
@@ -103,11 +267,72 @@
     .header{
         padding: 0px 0px;
     }
+    .custom-search{
+        width: 350px;
+    }
     .custom-search-input{
         height: 48px;
     }
     .custom-search-botton{
         height: 48px;
+    }
+    .marketplace__content_left h2{
+        font-size: 30px;
+        
+    }.marketplace__content_image, .marketplace__content_image img {
+        width: 120px;
+        height: 120px;
+    }
+    .marketplace__content{
+        align-items: flex-start;
+        column-gap: 86px
+    }
+    .marketplace__image_block1{
+        width: 80px;
+        height: 80px;    
+    }
+    .marketplace__image_block2{
+        width: 50px;
+        height: 50px;
+        margin-top: 54px;
+    }
+    .marketplace__image{
+        margin-left: 164px;
+        margin-top: -230px;
+        padding-bottom: 89px;
+
+    }
+    .marketplace__content_left h2{
+        font-size: 20px;
+    }
+    
+    .marketplace__content_left span{
+        font-size: 10px;
+        line-height: 1.5;
+        padding-top: 20px;
+        
+    }
+    .marketplace__content_right{
+        padding: 0;
+        margin-right: 80px
+    }
+    .container{
+        margin-left: 30px;
+
+    }
+    .marketplace__content_left button{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .marketplace__content_left{
+        grid-gap: 0;
+    }
+    .activity__text{
+        column-gap: 70px;
+    }
+    .activity__text span{
+        font-size: 20px;
+        line-height: 1;
     }
 
 }

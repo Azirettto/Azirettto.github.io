@@ -71,6 +71,10 @@
     color: #FFFFFF;
 
 }
+.activity__content_image-1 img{
+    width: 352px;
+    height: 305px;
+}
 .footer__content_svg{
     padding-top: 30px;
 }
@@ -114,4 +118,9 @@
     text-transform: capitalize;
 
     color: #FFFFFF;
+}
+.footer-menu-info{
+    display: flex;
+    column-gap: 200px;
+    display: flex;
 }

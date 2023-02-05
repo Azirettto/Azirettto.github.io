@@ -159,7 +159,8 @@ a{
     line-height: 28px;
     /* or 156% */
 
-    text-align: center;
+    display: flex;
+    justify-content: center;
 
     color: rgba(255, 255, 255, 0.5);
 
@@ -174,7 +175,7 @@ a{
     padding-bottom: 140px;
 }
 .custom-search-input {
-    width: 800px;
+    width: 896px;
     height: 80px;
     background-color: #13031f;
     border: 2px solid #ccc;
