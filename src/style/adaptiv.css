@@ -179,6 +179,16 @@
     }
 }
 @media (max-width:570px) {
+    .about__content_image, .about__content_image img{
+    width: 100px;
+    height: 100px;
+    }
+    .about__content_right{
+        margin-top: -193px;
+        margin-left: -118px;
+    }
+ 
+    
     .marketplace__content_image, .marketplace__content_image img {
         width: 160px;
         height: 160px;
@@ -257,6 +267,7 @@
 
     .about__content_right {
         position: absolute;
+        margin: 0;
         padding-left: 200px;
         padding-bottom: 280px;
     }
